@@ -46,9 +46,7 @@ public class FinalWindow extends JFrame implements ActionListener{
           m = m + " | "+temp.getSeat() ;
             
         }
-        //-------------------------------------------------
-        /// see the printing of the seats vector ok
-        //-----------------------------------------------
+       
         if(m== "Seats :"){
         m= u.k ; }
         seats.setText(m);
